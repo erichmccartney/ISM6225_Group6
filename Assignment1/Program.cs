@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Assignment1
+namespace Assignment1_Q1
 {
-    class Question1
+    class Program
     {
 
         /* Q1: Prof receives an array of integer points sorted in ascending order, the
