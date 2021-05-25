@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Assignment1
+namespace Assignment1_Q6
 {
-    class Question6
+    class Program
     {
         /*
         You are given an array of characters and an integer k, and are required 
@@ -33,5 +29,9 @@ namespace Assignment1
                     There fore output is false.
         */
 
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+        }
     }
 }
