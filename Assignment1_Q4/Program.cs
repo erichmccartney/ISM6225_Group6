@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 
 namespace Assignment1_Q4
@@ -28,7 +29,19 @@ namespace Assignment1_Q4
 
         public static string FreqSort(string s)
         {
-          
+                       
+            Dictionary<int, string > map = new Dictionary<int, string>();
+            map.TryAdd(1, "Dell");
+            map.TryAdd(2, "eebhhh");
+            map.TryAdd(3, "yYkk");
+
+
         }
-    }
+        // Driver Code
+        public static void Main()
+        {
+            int[] arr = { 2, 2, 3, 5, 6 };
+            int n = arr.Length;
+            Console.WriteLine(FreqSort(arr, n));
+        }
 }
