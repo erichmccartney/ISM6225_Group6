@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System.Collections.Generic;
 
 namespace Assignment1_Q6
 {
@@ -29,9 +29,37 @@ namespace Assignment1_Q6
                     There fore output is false.
         */
 
-        static void Main(string[] args)
+        public static bool ContainsDuplicate(char[] arr, int k)
         {
-            Console.WriteLine("Hello World!");
+            Dictionary<int, char> dict = new();
+
+            for (int i = 0; i < arr.Length; i++)
+            {
+                foreach (KeyValuePair<int, char> letterposition in dict)
+                {
+                    if (letterposition.Value == arr[i])
+                    {
+                        if ((i - letterposition.Key) <= k)
+                            return true;
+                    }
+                }
+                dict.Add(i, arr[i]);
+
+            }
+            return false;
+
+            /* Driver Code
+            public static void Main()
+            {
+                int []arr = { a, g, h, a };
+                int n = arr.Length;
+                int k = 3;
+                //arr =[k, y, k, k];
+                //k = 1;
+                //arr =[a, b, c, a, b, c];
+                //k = 2;
+                Console.WriteLine(ContainsDuplicate(arr, k));
+            }*/
         }
     }
 }
