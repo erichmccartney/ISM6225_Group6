@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Assignment1
+namespace Assignment1_Q5
 {
-    class Question5
+    class Program
     {
         /*
         Rocky the Bull is new to programming and is having trouble understating 
@@ -37,6 +33,9 @@ namespace Assignment1
         public static int[] Intersect1(int[] nums1, int[] nums2)
         public static int[] Intersect1(int[] nums1, int[] nums2)
         */
-
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+        }
     }
 }
