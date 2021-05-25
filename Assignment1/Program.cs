@@ -23,7 +23,7 @@ namespace Assignment1_Q1
                     first = i; //first position identified
                 last = i;
             }
-            if (first != -1) //convert varialbe to integer with "!"
+            if (first != -1) //convert variable to integer with "!"
             {
                 Console.WriteLine("[" + first + ", " + last + "]");
             }

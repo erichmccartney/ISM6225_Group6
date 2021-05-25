@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 
 namespace Assignment1_Q4
 {
@@ -23,7 +26,28 @@ namespace Assignment1_Q4
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(FreqSort("test1"));
+            Console.WriteLine(FreqSort("test2!!!"));
+            Console.WriteLine(FreqSort("Test3!!"));
+        }
+
+        public static string FreqSort(string s)
+        {
+            Dictionary<char, int> characterCounts = new Dictionary<char, int>();
+            foreach (char c in s)
+            {
+                if (characterCounts.ContainsKey(c))
+                    characterCounts[c]++;
+                else
+                    characterCounts[c] = 1;
+            }
+
+            StringBuilder sb = new StringBuilder();
+            foreach (var item in characterCounts.OrderByDescending(key => key.Value))
+            {
+                for (int i = 0; i < item.Value; i++) sb.Append(item.Key);
+            }
+            return sb.ToString();
         }
     }
 }
