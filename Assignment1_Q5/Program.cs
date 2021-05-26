@@ -33,9 +33,116 @@ namespace Assignment1_Q5
         public static int[] Intersect1(int[] nums1, int[] nums2)
         public static int[] Intersect1(int[] nums1, int[] nums2)
         */
-        static void Main(string[] args)
+        /* static void printUnion(int[] nums1, int[] nums2, int m,
+                           int n)
         {
-            Console.WriteLine("Hello World!");
+            // Find which array is smaller
+            if (m > n)
+            {
+                int[] tmp1 = nums1;
+                nums1 = nums2;
+                nums2 = tmp1;
+
+                int tmp = m;
+                m = n;
+                n = tmp;
+            }
+
+            // Sort smaller array
+            Array.Sort(nums1);
+            for (int i = 0; i < m; i++)
+                Console.Write(nums1[i] + " ");
+
+            // Compare larger and smaller array
+            for (int i = 0; i < n; i++)
+            {
+                if (binarySearch(nums1, 0, m - 1, nums2[i]) == -1)
+                    Console.Write(nums2[i] + " ");
+            }
+        } */
+
+        // Print intersection of the first and second array
+        static void printIntersection(int[] nums1, int[] nums2,
+                                      int m, int n)
+        {
+            // Before finding intersection,
+            // Find smaller array
+            if (m > n)
+            {
+                int[] tmp1 = nums1;
+                nums1 = nums2;
+                nums2 = tmp1;
+
+                int tmp = m;
+                m = n;
+                n = tmp;
+            }
+
+        
+            // Sort smaller array nums1
+            Array.Sort(nums1);
+
+            // Search every element of bigger array in
+            // smaller array and print the element if found
+            for (int i = 0; i < n; i++)
+            {
+                if (binarySearch(nums1, 0, m - 1, nums2[i]) != -1)
+                    Console.Write(nums2[i] + " ");
+            }
         }
+
+       /* // A recursive binary search function.
+        // It returns location of x in given
+        // array arr[l..r] is present, otherwise -1
+        static int binarySearch(int[] arr, int l, int r, int x)
+        {
+            if (r >= l)
+            {
+                int mid = l + (r - l) / 2;
+
+                // If the element is present at
+                // the middle itself
+                if (arr[mid] == x)
+                    return mid;
+
+                // If element is smaller than mid, then it
+                // can only be present in left subarray
+                if (arr[mid] > x)
+                    return binarySearch(arr, l, mid - 1, x);
+
+                // Else the element can only be
+                // present in right subarray
+                return binarySearch(arr, mid + 1, r, x);
+            }
+
+            // We reach here when element is
+            // not present in array
+            return -1;
+        }
+*/
+        // Driver Code
+        static public void Main()
+        {
+            int[] nums1 = { 7, 1, 5, 2, 3, 6 };
+            int[] nums2 = { 3, 8, 6, 20, 7 };
+            int m = nums1.Length;
+            int n = nums2.Length;
+
+            // Function call
+            Console.WriteLine("Union of two arrays is ");
+            printUnion(nums1, nums2, m, n);
+            Console.WriteLine("");
+            Console.WriteLine("Intersection of two arrays is ");
+            printIntersection(nums1, nums2, m, n);
+        }
+    
+   /* static void Main(string[] args)
+        {
+            Console.WriteLine("Question 5");
+            int[] nums1 = { 1, 2, 2, 1 };
+            int[] nums2 = { 2, 2 };
+            int[] intersect1 = Intersect1(nums1, nums2);
+
+        } */ 
     }
 }
