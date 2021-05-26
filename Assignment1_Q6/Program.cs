@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace Assignment1_Q6
 {
@@ -29,37 +30,39 @@ namespace Assignment1_Q6
                     There fore output is false.
         */
 
+        public static void Main()
+        {
+            char[] arr = new char[] { 'a', 'g', 'h', 'a' };
+            int k = 3;
+            Console.WriteLine(ContainsDuplicate(arr, k));
+            arr = new char[] { 'k', 'y', 'k', 'k' };
+            k = 1;
+            Console.WriteLine(ContainsDuplicate(arr, k));
+            arr = new char[] { 'a', 'b', 'c', 'a', 'b', 'c' };
+            k = 2;
+            Console.WriteLine(ContainsDuplicate(arr, k));
+        }
+
+        // Iterates once through the array (arr) while using a dictionary to keep track of the
+        // last index at which it saw each character. If it finds a character which it previously
+        // found within k index positions, returns true. Otherwise returns false.
         public static bool ContainsDuplicate(char[] arr, int k)
         {
-            Dictionary<int, char> dict = new();
+            Dictionary<char, int> previouslyFoundIndex = new Dictionary<char, int>();
 
             for (int i = 0; i < arr.Length; i++)
             {
-                foreach (KeyValuePair<int, char> letterposition in dict)
+                // Get the next character from the array and check whether we've found it previously.
+                char c = arr[i];
+                if (previouslyFoundIndex.ContainsKey(c))
                 {
-                    if (letterposition.Value == arr[i])
-                    {
-                        if ((i - letterposition.Key) <= k)
-                            return true;
-                    }
+                    //  We've seen it, so see if it was recent enough to pass the test.
+                    if (i - previouslyFoundIndex[c] <= k) return true;
                 }
-                dict.Add(i, arr[i]);
-
+                // Add or update the entry for this character to the current index.
+                previouslyFoundIndex[c] = i;
             }
             return false;
-
-            /* Driver Code
-            public static void Main()
-            {
-                int []arr = { a, g, h, a };
-                int n = arr.Length;
-                int k = 3;
-                //arr =[k, y, k, k];
-                //k = 1;
-                //arr =[a, b, c, a, b, c];
-                //k = 2;
-                Console.WriteLine(ContainsDuplicate(arr, k));
-            }*/
         }
     }
 }
