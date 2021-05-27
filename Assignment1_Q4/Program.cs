@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,17 +14,18 @@ namespace Assignment1_Q4
        Example 1: 
        Input : “Dell”					Output: “llDe”
        Explanation:  “lleD” is also accepted. Frequency of l is 2 and other 2 characters is 1.
-       Example 2:
+       
+        Example 2:
        Input : eebhhh					Output: hhheeb 
-       Example 3: 
-       Input : yYkk					Output: kkYy
+       
+        Example 3: 
+       Input : yYkk				    	Output: kkYy
        Explanation: “Yykk” is not a valid answer as Y and y are treated as two different characters.
 
        Note: The solution must use a dictionary as the primary data structure.
        public static string FreqSort(string s)
        */
-
-        static void Main(string[] args)
+        public static void Main()
         {
             Console.WriteLine(FreqSort("test1"));
             Console.WriteLine(FreqSort("test2!!!"));
