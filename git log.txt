@@ -1,0 +1,347 @@
+C:\Users\erich\source\repos\ISM6225_Group6>git log --author="Erich McCartney" --pretty=tformat: --numstat
+0       0       {Assignment1 => Assignment1_Q1}/Assignment1_Q1.csproj
+0       0       {Assignment1 => Assignment1_Q1}/Program.cs
+3       3       ISM6225_Group6.sln
+31      3       Assignment1_Q6/Program.cs
+15      2       Assignment1_Q4/Program.cs
+10      5       Assignment1_Q4/Program.cs
+29      8       Assignment1_Q3/Program.cs
+0       45      Assignment1/Question2.cs
+0       32      Assignment1/Question3.cs
+0       29      Assignment1/Question4.cs
+21      0       Assignment1_Q3/Program.cs
+8       0       Assignment1_Q4/Assignment1_Q4.csproj
+29      0       Assignment1_Q4/Program.cs
+8       0       Assignment1_Q5/Assignment1_Q5.csproj
+6       7       Assignment1/Question5.cs => Assignment1_Q5/Program.cs
+8       0       Assignment1_Q6/Assignment1_Q6.csproj
+6       6       Assignment1/Question6.cs => Assignment1_Q6/Program.cs
+18      0       ISM6225_Group6.sln
+0       0       Assignment1/{Assignment1.csproj => Assignment1_Q1.csproj}
+2       2       Assignment1/{Question1.cs => Program.cs}
+16      0       Assignment1/Question2.cs
+8       0       Assignment1_Q2/Assignment1_Q2.csproj
+58      0       Assignment1_Q2/Program.cs
+8       0       Assignment1_Q3/Assignment1_Q3.csproj
+12      0       Assignment1_Q3/Program.cs
+8       0       ClassLibrary1/Class1.cs
+7       0       ClassLibrary1/ClassLibrary1.csproj
+13      1       ISM6225_Group6.sln
+:...skipping...
+0       0       {Assignment1 => Assignment1_Q1}/Assignment1_Q1.csproj
+0       0       {Assignment1 => Assignment1_Q1}/Program.cs
+3       3       ISM6225_Group6.sln
+31      3       Assignment1_Q6/Program.cs
+15      2       Assignment1_Q4/Program.cs
+10      5       Assignment1_Q4/Program.cs
+29      8       Assignment1_Q3/Program.cs
+0       45      Assignment1/Question2.cs
+0       32      Assignment1/Question3.cs
+0       29      Assignment1/Question4.cs
+21      0       Assignment1_Q3/Program.cs
+8       0       Assignment1_Q4/Assignment1_Q4.csproj
+29      0       Assignment1_Q4/Program.cs
+8       0       Assignment1_Q5/Assignment1_Q5.csproj
+6       7       Assignment1/Question5.cs => Assignment1_Q5/Program.cs
+8       0       Assignment1_Q6/Assignment1_Q6.csproj
+6       6       Assignment1/Question6.cs => Assignment1_Q6/Program.cs
+18      0       ISM6225_Group6.sln
+0       0       Assignment1/{Assignment1.csproj => Assignment1_Q1.csproj}
+2       2       Assignment1/{Question1.cs => Program.cs}
+16      0       Assignment1/Question2.cs
+8       0       Assignment1_Q2/Assignment1_Q2.csproj
+58      0       Assignment1_Q2/Program.cs
+8       0       Assignment1_Q3/Assignment1_Q3.csproj
+12      0       Assignment1_Q3/Program.cs
+8       0       ClassLibrary1/Class1.cs
+7       0       ClassLibrary1/ClassLibrary1.csproj
+13      1       ISM6225_Group6.sln
+8       0       Assignment1/Assignment1.csproj
+:...skipping...
+0       0       {Assignment1 => Assignment1_Q1}/Assignment1_Q1.csproj
+0       0       {Assignment1 => Assignment1_Q1}/Program.cs
+3       3       ISM6225_Group6.sln
+31      3       Assignment1_Q6/Program.cs
+15      2       Assignment1_Q4/Program.cs
+10      5       Assignment1_Q4/Program.cs
+29      8       Assignment1_Q3/Program.cs
+0       45      Assignment1/Question2.cs
+0       32      Assignment1/Question3.cs
+0       29      Assignment1/Question4.cs
+21      0       Assignment1_Q3/Program.cs
+8       0       Assignment1_Q4/Assignment1_Q4.csproj
+29      0       Assignment1_Q4/Program.cs
+8       0       Assignment1_Q5/Assignment1_Q5.csproj
+6       7       Assignment1/Question5.cs => Assignment1_Q5/Program.cs
+8       0       Assignment1_Q6/Assignment1_Q6.csproj
+6       6       Assignment1/Question6.cs => Assignment1_Q6/Program.cs
+18      0       ISM6225_Group6.sln
+0       0       Assignment1/{Assignment1.csproj => Assignment1_Q1.csproj}
+2       2       Assignment1/{Question1.cs => Program.cs}
+16      0       Assignment1/Question2.cs
+8       0       Assignment1_Q2/Assignment1_Q2.csproj
+58      0       Assignment1_Q2/Program.cs
+8       0       Assignment1_Q3/Assignment1_Q3.csproj
+12      0       Assignment1_Q3/Program.cs
+8       0       ClassLibrary1/Class1.cs
+7       0       ClassLibrary1/ClassLibrary1.csproj
+13      1       ISM6225_Group6.sln
+8       0       Assignment1/Assignment1.csproj
+43      0       Assignment1/Question1.cs
+:...skipping...
+0       0       {Assignment1 => Assignment1_Q1}/Assignment1_Q1.csproj
+0       0       {Assignment1 => Assignment1_Q1}/Program.cs
+3       3       ISM6225_Group6.sln
+31      3       Assignment1_Q6/Program.cs
+15      2       Assignment1_Q4/Program.cs
+10      5       Assignment1_Q4/Program.cs
+29      8       Assignment1_Q3/Program.cs
+0       45      Assignment1/Question2.cs
+0       32      Assignment1/Question3.cs
+0       29      Assignment1/Question4.cs
+21      0       Assignment1_Q3/Program.cs
+8       0       Assignment1_Q4/Assignment1_Q4.csproj
+29      0       Assignment1_Q4/Program.cs
+8       0       Assignment1_Q5/Assignment1_Q5.csproj
+6       7       Assignment1/Question5.cs => Assignment1_Q5/Program.cs
+8       0       Assignment1_Q6/Assignment1_Q6.csproj
+6       6       Assignment1/Question6.cs => Assignment1_Q6/Program.cs
+18      0       ISM6225_Group6.sln
+0       0       Assignment1/{Assignment1.csproj => Assignment1_Q1.csproj}
+2       2       Assignment1/{Question1.cs => Program.cs}
+16      0       Assignment1/Question2.cs
+8       0       Assignment1_Q2/Assignment1_Q2.csproj
+58      0       Assignment1_Q2/Program.cs
+8       0       Assignment1_Q3/Assignment1_Q3.csproj
+12      0       Assignment1_Q3/Program.cs
+8       0       ClassLibrary1/Class1.cs
+7       0       ClassLibrary1/ClassLibrary1.csproj
+13      1       ISM6225_Group6.sln
+8       0       Assignment1/Assignment1.csproj
+43      0       Assignment1/Question1.cs
+29      0       Assignment1/Question2.cs
+:...skipping...
+0       0       {Assignment1 => Assignment1_Q1}/Assignment1_Q1.csproj
+0       0       {Assignment1 => Assignment1_Q1}/Program.cs
+3       3       ISM6225_Group6.sln
+31      3       Assignment1_Q6/Program.cs
+15      2       Assignment1_Q4/Program.cs
+10      5       Assignment1_Q4/Program.cs
+29      8       Assignment1_Q3/Program.cs
+0       45      Assignment1/Question2.cs
+0       32      Assignment1/Question3.cs
+0       29      Assignment1/Question4.cs
+21      0       Assignment1_Q3/Program.cs
+8       0       Assignment1_Q4/Assignment1_Q4.csproj
+29      0       Assignment1_Q4/Program.cs
+8       0       Assignment1_Q5/Assignment1_Q5.csproj
+6       7       Assignment1/Question5.cs => Assignment1_Q5/Program.cs
+8       0       Assignment1_Q6/Assignment1_Q6.csproj
+6       6       Assignment1/Question6.cs => Assignment1_Q6/Program.cs
+18      0       ISM6225_Group6.sln
+0       0       Assignment1/{Assignment1.csproj => Assignment1_Q1.csproj}
+2       2       Assignment1/{Question1.cs => Program.cs}
+16      0       Assignment1/Question2.cs
+8       0       Assignment1_Q2/Assignment1_Q2.csproj
+58      0       Assignment1_Q2/Program.cs
+8       0       Assignment1_Q3/Assignment1_Q3.csproj
+12      0       Assignment1_Q3/Program.cs
+8       0       ClassLibrary1/Class1.cs
+7       0       ClassLibrary1/ClassLibrary1.csproj
+13      1       ISM6225_Group6.sln
+8       0       Assignment1/Assignment1.csproj
+43      0       Assignment1/Question1.cs
+29      0       Assignment1/Question2.cs
+32      0       Assignment1/Question3.cs
+:...skipping...
+0       0       {Assignment1 => Assignment1_Q1}/Assignment1_Q1.csproj
+0       0       {Assignment1 => Assignment1_Q1}/Program.cs
+3       3       ISM6225_Group6.sln
+31      3       Assignment1_Q6/Program.cs
+15      2       Assignment1_Q4/Program.cs
+10      5       Assignment1_Q4/Program.cs
+29      8       Assignment1_Q3/Program.cs
+0       45      Assignment1/Question2.cs
+0       32      Assignment1/Question3.cs
+0       29      Assignment1/Question4.cs
+21      0       Assignment1_Q3/Program.cs
+8       0       Assignment1_Q4/Assignment1_Q4.csproj
+29      0       Assignment1_Q4/Program.cs
+8       0       Assignment1_Q5/Assignment1_Q5.csproj
+6       7       Assignment1/Question5.cs => Assignment1_Q5/Program.cs
+8       0       Assignment1_Q6/Assignment1_Q6.csproj
+6       6       Assignment1/Question6.cs => Assignment1_Q6/Program.cs
+18      0       ISM6225_Group6.sln
+0       0       Assignment1/{Assignment1.csproj => Assignment1_Q1.csproj}
+2       2       Assignment1/{Question1.cs => Program.cs}
+16      0       Assignment1/Question2.cs
+8       0       Assignment1_Q2/Assignment1_Q2.csproj
+58      0       Assignment1_Q2/Program.cs
+8       0       Assignment1_Q3/Assignment1_Q3.csproj
+12      0       Assignment1_Q3/Program.cs
+8       0       ClassLibrary1/Class1.cs
+7       0       ClassLibrary1/ClassLibrary1.csproj
+13      1       ISM6225_Group6.sln
+8       0       Assignment1/Assignment1.csproj
+43      0       Assignment1/Question1.cs
+29      0       Assignment1/Question2.cs
+32      0       Assignment1/Question3.cs
+29      0       Assignment1/Question4.cs
+:...skipping...
+0       0       {Assignment1 => Assignment1_Q1}/Assignment1_Q1.csproj
+0       0       {Assignment1 => Assignment1_Q1}/Program.cs
+3       3       ISM6225_Group6.sln
+31      3       Assignment1_Q6/Program.cs
+15      2       Assignment1_Q4/Program.cs
+10      5       Assignment1_Q4/Program.cs
+29      8       Assignment1_Q3/Program.cs
+0       45      Assignment1/Question2.cs
+0       32      Assignment1/Question3.cs
+0       29      Assignment1/Question4.cs
+21      0       Assignment1_Q3/Program.cs
+8       0       Assignment1_Q4/Assignment1_Q4.csproj
+29      0       Assignment1_Q4/Program.cs
+8       0       Assignment1_Q5/Assignment1_Q5.csproj
+6       7       Assignment1/Question5.cs => Assignment1_Q5/Program.cs
+8       0       Assignment1_Q6/Assignment1_Q6.csproj
+6       6       Assignment1/Question6.cs => Assignment1_Q6/Program.cs
+18      0       ISM6225_Group6.sln
+0       0       Assignment1/{Assignment1.csproj => Assignment1_Q1.csproj}
+2       2       Assignment1/{Question1.cs => Program.cs}
+16      0       Assignment1/Question2.cs
+8       0       Assignment1_Q2/Assignment1_Q2.csproj
+58      0       Assignment1_Q2/Program.cs
+8       0       Assignment1_Q3/Assignment1_Q3.csproj
+12      0       Assignment1_Q3/Program.cs
+8       0       ClassLibrary1/Class1.cs
+7       0       ClassLibrary1/ClassLibrary1.csproj
+13      1       ISM6225_Group6.sln
+8       0       Assignment1/Assignment1.csproj
+43      0       Assignment1/Question1.cs
+29      0       Assignment1/Question2.cs
+32      0       Assignment1/Question3.cs
+29      0       Assignment1/Question4.cs
+42      0       Assignment1/Question5.cs
+:...skipping...
+0       0       {Assignment1 => Assignment1_Q1}/Assignment1_Q1.csproj
+0       0       {Assignment1 => Assignment1_Q1}/Program.cs
+3       3       ISM6225_Group6.sln
+31      3       Assignment1_Q6/Program.cs
+15      2       Assignment1_Q4/Program.cs
+10      5       Assignment1_Q4/Program.cs
+29      8       Assignment1_Q3/Program.cs
+0       45      Assignment1/Question2.cs
+0       32      Assignment1/Question3.cs
+0       29      Assignment1/Question4.cs
+21      0       Assignment1_Q3/Program.cs
+8       0       Assignment1_Q4/Assignment1_Q4.csproj
+29      0       Assignment1_Q4/Program.cs
+8       0       Assignment1_Q5/Assignment1_Q5.csproj
+6       7       Assignment1/Question5.cs => Assignment1_Q5/Program.cs
+8       0       Assignment1_Q6/Assignment1_Q6.csproj
+6       6       Assignment1/Question6.cs => Assignment1_Q6/Program.cs
+18      0       ISM6225_Group6.sln
+0       0       Assignment1/{Assignment1.csproj => Assignment1_Q1.csproj}
+2       2       Assignment1/{Question1.cs => Program.cs}
+16      0       Assignment1/Question2.cs
+8       0       Assignment1_Q2/Assignment1_Q2.csproj
+58      0       Assignment1_Q2/Program.cs
+8       0       Assignment1_Q3/Assignment1_Q3.csproj
+12      0       Assignment1_Q3/Program.cs
+8       0       ClassLibrary1/Class1.cs
+7       0       ClassLibrary1/ClassLibrary1.csproj
+13      1       ISM6225_Group6.sln
+8       0       Assignment1/Assignment1.csproj
+43      0       Assignment1/Question1.cs
+29      0       Assignment1/Question2.cs
+32      0       Assignment1/Question3.cs
+29      0       Assignment1/Question4.cs
+42      0       Assignment1/Question5.cs
+37      0       Assignment1/Question6.cs
+25      0       ISM6225_Group6.sln
+:...skipping...
+0       0       {Assignment1 => Assignment1_Q1}/Assignment1_Q1.csproj
+0       0       {Assignment1 => Assignment1_Q1}/Program.cs
+3       3       ISM6225_Group6.sln
+31      3       Assignment1_Q6/Program.cs
+15      2       Assignment1_Q4/Program.cs
+10      5       Assignment1_Q4/Program.cs
+29      8       Assignment1_Q3/Program.cs
+0       45      Assignment1/Question2.cs
+0       32      Assignment1/Question3.cs
+0       29      Assignment1/Question4.cs
+21      0       Assignment1_Q3/Program.cs
+8       0       Assignment1_Q4/Assignment1_Q4.csproj
+29      0       Assignment1_Q4/Program.cs
+8       0       Assignment1_Q5/Assignment1_Q5.csproj
+6       7       Assignment1/Question5.cs => Assignment1_Q5/Program.cs
+8       0       Assignment1_Q6/Assignment1_Q6.csproj
+6       6       Assignment1/Question6.cs => Assignment1_Q6/Program.cs
+18      0       ISM6225_Group6.sln
+0       0       Assignment1/{Assignment1.csproj => Assignment1_Q1.csproj}
+2       2       Assignment1/{Question1.cs => Program.cs}
+16      0       Assignment1/Question2.cs
+8       0       Assignment1_Q2/Assignment1_Q2.csproj
+58      0       Assignment1_Q2/Program.cs
+8       0       Assignment1_Q3/Assignment1_Q3.csproj
+12      0       Assignment1_Q3/Program.cs
+8       0       ClassLibrary1/Class1.cs
+7       0       ClassLibrary1/ClassLibrary1.csproj
+13      1       ISM6225_Group6.sln
+8       0       Assignment1/Assignment1.csproj
+43      0       Assignment1/Question1.cs
+29      0       Assignment1/Question2.cs
+32      0       Assignment1/Question3.cs
+29      0       Assignment1/Question4.cs
+42      0       Assignment1/Question5.cs
+37      0       Assignment1/Question6.cs
+25      0       ISM6225_Group6.sln
+63      0       .gitattributes
+:...skipping...
+0       0       {Assignment1 => Assignment1_Q1}/Assignment1_Q1.csproj
+0       0       {Assignment1 => Assignment1_Q1}/Program.cs
+3       3       ISM6225_Group6.sln
+31      3       Assignment1_Q6/Program.cs
+15      2       Assignment1_Q4/Program.cs
+10      5       Assignment1_Q4/Program.cs
+29      8       Assignment1_Q3/Program.cs
+0       45      Assignment1/Question2.cs
+0       32      Assignment1/Question3.cs
+0       29      Assignment1/Question4.cs
+21      0       Assignment1_Q3/Program.cs
+8       0       Assignment1_Q4/Assignment1_Q4.csproj
+29      0       Assignment1_Q4/Program.cs
+8       0       Assignment1_Q5/Assignment1_Q5.csproj
+6       7       Assignment1/Question5.cs => Assignment1_Q5/Program.cs
+8       0       Assignment1_Q6/Assignment1_Q6.csproj
+6       6       Assignment1/Question6.cs => Assignment1_Q6/Program.cs
+18      0       ISM6225_Group6.sln
+0       0       Assignment1/{Assignment1.csproj => Assignment1_Q1.csproj}
+2       2       Assignment1/{Question1.cs => Program.cs}
+16      0       Assignment1/Question2.cs
+8       0       Assignment1_Q2/Assignment1_Q2.csproj
+58      0       Assignment1_Q2/Program.cs
+8       0       Assignment1_Q3/Assignment1_Q3.csproj
+12      0       Assignment1_Q3/Program.cs
+8       0       ClassLibrary1/Class1.cs
+7       0       ClassLibrary1/ClassLibrary1.csproj
+13      1       ISM6225_Group6.sln
+8       0       Assignment1/Assignment1.csproj
+43      0       Assignment1/Question1.cs
+29      0       Assignment1/Question2.cs
+32      0       Assignment1/Question3.cs
+29      0       Assignment1/Question4.cs
+42      0       Assignment1/Question5.cs
+37      0       Assignment1/Question6.cs
+25      0       ISM6225_Group6.sln
+63      0       .gitattributes
+363     0       .gitignore
+~
+
+C:\Users\erich\source\repos\ISM6225_Group6>git log --author="jjbotero170" --pretty=tformat: --numstat
+109     2       Assignment1_Q5/Program.cs
+
+C:\Users\erich\source\repos\ISM6225_Group6>git log --author="Jenniferodd"  --pretty=tformat: --numstat
+61      92      Assignment1_Q5/Program.cs
+26      23      Assignment1_Q6/Program.cs
+25      1       Assignment1_Q4/Program.cs
