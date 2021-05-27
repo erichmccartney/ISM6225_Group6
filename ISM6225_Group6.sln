@@ -9,11 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment1_Q2", "Assignmen
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment1_Q3", "Assignment1_Q3\Assignment1_Q3.csproj", "{F5284793-0E93-4096-AD08-25F51865D8C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment1_Q4", "Assignment1_Q4\Assignment1_Q4.csproj", "{FB9BFBFD-A38F-4C88-9EB0-025034391FEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment1_Q4", "Assignment1_Q4\Assignment1_Q4.csproj", "{FB9BFBFD-A38F-4C88-9EB0-025034391FEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment1_Q5", "Assignment1_Q5\Assignment1_Q5.csproj", "{414ED31A-2181-4398-BF50-578EE55D8C6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment1_Q5", "Assignment1_Q5\Assignment1_Q5.csproj", "{414ED31A-2181-4398-BF50-578EE55D8C6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment1_Q6", "Assignment1_Q6\Assignment1_Q6.csproj", "{8C8F30B9-041D-4948-85B4-C580B58D0B4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment1_Q6", "Assignment1_Q6\Assignment1_Q6.csproj", "{8C8F30B9-041D-4948-85B4-C580B58D0B4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

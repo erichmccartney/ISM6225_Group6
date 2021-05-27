@@ -1,7 +1,7 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
+using System.Text;
 
 namespace Assignment1_Q4
 {
@@ -25,23 +25,30 @@ namespace Assignment1_Q4
        Note: The solution must use a dictionary as the primary data structure.
        public static string FreqSort(string s)
        */
-
+        public static void Main()
+        {
+            Console.WriteLine(FreqSort("test1"));
+            Console.WriteLine(FreqSort("test2!!!"));
+            Console.WriteLine(FreqSort("Test3!!"));
+        }
 
         public static string FreqSort(string s)
         {
-                       
-            Dictionary<int, string > map = new Dictionary<int, string>();
-            map.TryAdd(1, "Dell");
-            map.TryAdd(2, "eebhhh");
-            map.TryAdd(3, "yYkk");
+            Dictionary<char, int> characterCounts = new Dictionary<char, int>();
+            foreach (char c in s)
+            {
+                if (characterCounts.ContainsKey(c))
+                    characterCounts[c]++;
+                else
+                    characterCounts[c] = 1;
+            }
 
-
+            StringBuilder sb = new StringBuilder();
+            foreach (var item in characterCounts.OrderByDescending(key => key.Value))
+            {
+                for (int i = 0; i < item.Value; i++) sb.Append(item.Key);
+            }
+            return sb.ToString();
         }
-        // Driver Code
-        public static void Main()
-        {
-            int[] arr = { 2, 2, 3, 5, 6 };
-            int n = arr.Length;
-            Console.WriteLine(FreqSort(arr, n));
-        }
+    }
 }
